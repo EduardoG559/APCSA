@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ReadingInput
+comment1.params=
+comment1.target=void\ main()
+comment2.params=
+comment2.target=void\ inputName()
+comment2.text=\ This\ method\ uses\ a\ scanner\ to\ ask\ for\ a\ person's\ name.\r\n\ \r\n\ \r\n
+comment3.params=
+comment3.target=void\ aNumber()
+comment3.text=\r\n\ \r\n
+comment4.params=
+comment4.target=void\ aBetterNumber()
+numComments=5

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GuessGame
+comment1.params=
+comment1.target=void\ chooseRandomNumber()
+comment1.text=Guessgame\ Requirements\r\n\ Computer\ generates\ a\ random\ number\ from\ 1\ to\ 50\r\n\ You\ get\ 15\ tries\ to\ guess\ the\ number\ \r\n\ After\ each\ guess,\ the\ computer\ will\ tell\ you\ to\ guess\ higher\ or\ lower\r\n\ The\ program\ ends\ when\ guesses\ have\ run\ out\ or\ if\ you\ guessed\ correctly\r\n
+numComments=2
