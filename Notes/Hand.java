@@ -8,18 +8,30 @@
 
 public class Hand
 {
-    public int card1;
-    public int card2;
-    public int total;
+    private int card1;
+    private int card2;
+    private int total;
 
     public Hand(){
-      card1 = hit();
-      card2 = hit();
+        card1 = hit();
+        card2 = hit();
     }
+
     public int hit(){
         int newCard = (int)(Math.random() * 7 + 2);
         total += newCard;
         return newCard;
     }
 
+    public int getCard1(){      
+        return card1;   
     }
+
+    public int getCard2(){
+        return card2;
+    }
+    public int getTotal(){
+        return total;
+        
+    }
+}
