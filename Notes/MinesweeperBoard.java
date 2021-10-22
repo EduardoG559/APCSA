@@ -39,23 +39,22 @@ public class MinesweeperBoard{
     public void addMines(int mines) throws Exception{
         for(int i = 0; i != mines; i++){
             int randMines = (int)(Math.random() * rows*columns);
-            if(board[randMines].value==0){
+            if(board[randMines].getValue()==0){
                 board[randMines].createMines();
                 board[randMines].isMine();
-
+                
             }else{
                 i--;
 
             }
-            //
+
         }
     }
 
     public void addNums(){
         int num = 0;
         for(int i = 0;i < board.length;i++){
-            
-            
+
         }
     }
 
@@ -66,16 +65,15 @@ public class MinesweeperBoard{
 
         for(int j = 0; j < rows;j++){
             for(int i = 0; i < columns;i++){
-                int numVal = board[i].value;
+                int numVal = board[i].getValue();
                 if(board[i].isMine()){
                     System.out.print("X ");
 
                 }else{
-                   System.out.print(numVal + " "); 
-                    
+                    System.out.print(numVal + " "); 
+
                 }
 
-                
 
             }
             System.out.println();

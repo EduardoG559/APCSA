@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
 
 public class Cell implements ActionListener{
     //Variables you need to work with
-    int value;
+    private int value;
                           
     //Variables you don't need to worry about or care about.
     private JButton button;
@@ -64,6 +64,10 @@ public class Cell implements ActionListener{
     public int createMines(){
         value = 16;
         return value;
+        
+    }
+    public int getValue(){
+       return value; 
         
     }
     //The following methods are used for the User Inferface. These methods are fully functional and do not need to be modified.
