@@ -33,17 +33,21 @@ public class MinesweeperBoard{
             int randMines = (int)(Math.random() * rows*columns);
             if(board[randMines].getValue()==0){
                 board[randMines].createMines();
-                board[randMines].isMine();             
+                board[randMines].isMine();
+                
             }else{
                 i--;
             }
         }
     }
     public void addNums(){
-        int num = 0;
+        int numVal = 0;
         for(int i = 0;i < rows*columns;i++){
-          if(board[i+1].isMine() && i+1 < board.length){
-              
+          if(board[i].isMine()==true){
+               if(){
+                   
+                   
+                }
             }
         }
     }
@@ -54,7 +58,7 @@ public class MinesweeperBoard{
         for(int j = 0; j < rows;j++){
             for(int i = 0; i < columns;i++){
                 int numVal = board[i].getValue();
-                if(board[i].isMine()==true){
+                if(board[i].isMine()){
                     System.out.print("X ");
                 }else{
                     System.out.print(numVal + " "); 

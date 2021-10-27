@@ -45,22 +45,7 @@ public class Cell implements ActionListener{
     //PrintBoard function(answer key)
     //Work with addMines(int mines)
     //addNum() 
-    // public void printBoard(){ 
-        // for(int j = 0; j < rows;j++){
-            // for(int i = 0; i < columns;i++){
-                // int numVal = board[i].value;
-                // if(board[i].isMine()){
-                     // System.out.print(numVal + " ");
-
-                // }else{
-                      // System.out.print(numVal + " ");
-                // }
-                
-            // }
-            // System.out.println();
-        // }
-
-    // }
+    
     public int createMines(){
         value = 16;
         return value;
