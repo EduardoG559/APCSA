@@ -45,7 +45,10 @@ public class Cell implements ActionListener{
     //PrintBoard function(answer key)
     //Work with addMines(int mines)
     //addNum() 
-    
+    public int increaseValue(){
+        return value++;
+        
+    }
     public int createMines(){
         value = 16;
         return value;

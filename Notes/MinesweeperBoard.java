@@ -41,14 +41,12 @@ public class MinesweeperBoard{
         }
     }
     public void addNums(){
-        int numVal = 0;
+        int num = 0;
         for(int i = 0;i < rows*columns;i++){
           if(board[i].isMine()==true){
-               if(){
-                   
-                   
-                }
-            }
+              
+              
+          }
         }
     }
     /**This method is used for testing and will be deleted if using the GUI.
